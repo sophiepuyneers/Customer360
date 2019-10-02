@@ -26,6 +26,15 @@
         "name": "Northwind"
       },
       "description": "Northwind"
+    },
+    {
+      "path": "/sap/opu/odata",
+      "target": {
+        "type": "destination",
+        "name": "F4C",
+        "entryPath": "/sap/opu/odata"
+      },
+      "description": "F4C"
     }
   ],
   "sendWelcomeFileRedirect": true

@@ -1,0 +1,19 @@
+<mvc:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="com.delaware.svp.trac2019.controller.Master"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<App>
+		<pages>
+			<Page title="{i18n>appTitle}">
+				<content>
+					<List id = "customerList" items = "{/ZV_ZVT19_CUSTM_JL}">
+						<ObjectListItem title = "{name}">
+							<attributes>
+								<ObjectAttribute text = "{city}"></ObjectAttribute>
+								<ObjectAttribute text = "{country}"></ObjectAttribute>
+							</attributes>
+						</ObjectListItem>
+					</List>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
